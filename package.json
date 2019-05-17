@@ -3,8 +3,8 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "prebuild": "echo I run before the build script",
+    "start": "ng serve -o",
+    "prebuild": "mkdir dist",
     "build": "ng build --prod --output-path docs --base-href day24",
     "postbuild": "echo I run after the build script",
     "test": "ng test",
